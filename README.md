@@ -10,7 +10,7 @@ Anyone could. All it takes is to know skript, be original, be open-sourced, and 
 EXCEPTION: To be original, if you want to base it off of an existing Skript, please recode it and give credit to the original author. You may give yourself credit for recoding the Skript and open-sourcing it. This must be done via commenting in the Skript file.
 
 ## Troubleshooting
-To fix the indentation issue, just copy and paste it into a IDE/UDL. I recommend Notepad++, Atom.io, and Visual Studio Code  
+To fix the indentation issue, just copy and paste it into a IDE/UDL, or upload it to Pastebin. Or, you could just use the Raw version of it. I recommend Notepad++, Atom.io, and Visual Studio Code  
 
 ## What if there is something that was not said in this readme that I need to know?
 Just ask me or the Maintainers of this project and they will add it for you! :)
