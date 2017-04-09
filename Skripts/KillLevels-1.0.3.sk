@@ -1,0 +1,113 @@
+# Kill Levels originally by GENT1EMEN, recoded by RainDorpInMCYT.
+# 4-8-17 Version.
+
+on death:
+	attacker is a player
+	add 1 to {kills:level:%player%}
+	
+if {kills:level:%player%} is 1:
+	set the player's prefix to "&71 "
+	send "&9Kill Levels ➡ &7You are now level &91!"
+	execute console command "/playsound noteblock.pling %player%"
+	
+if {kills:level:%player%} is 10:
+	set the player's prefix to "&72 "
+	send "&9Kill Levels ➡ &7You are now level &92!"
+	execute console command "/playsound noteblock.pling %player%"
+	
+if {kills:level:%player%} is 20:
+	set the player's prefix to "&73 "
+	send "&9Kill Levels ➡ &7You are now level &93!"
+	execute console command "/playsound noteblock.pling %player%"
+
+if {kills:level:%player%} is 35:
+	set the player's prefix to "&a4 "
+	send "&9Kill Levels ➡ &7You are now level &94"
+	execute console command "/playsound noteblock.pling %player%"
+	
+if {kills:level:%player%} is 50:
+	set the player's prefix to "&a5 "
+	send "&9Kill Levels ➡ &7You are now level &95"
+	execute console command "/playsound noteblock.pling %player%"
+	broadcast "&9Kill Levels ➡ &7%player% is now level &95! (50 kills)"
+	
+if {kills:level:%player%} is 75:
+	set the player's prefix to "&a6 "
+	send "&9Kill Levels ➡ &7You are now level &96!"
+	execute console command "/playsound noteblock.pling %player%"
+	
+if {kills:level:%player%} is 100:
+	set the player's prefix to "&a7 "
+	send "&9Kill Levels ➡ &7You are now level &97!"
+	execute console command "/playsound noteblock.pling %player%"
+	broadcast "&9Kill Levels ➡ &7%player% is now level &96! (100 KILLS!)"
+	
+if {kills:level:%player%} is 150:
+	set the player's prefix to "&c8 "
+	send "&9Kill Levels ➡ &7You are now level &98!"
+	execute console command "/playsound noteblock.pling %Player%"
+	
+if {kills:level:%player%} is 200:
+	set the player's prefix to "&c9 "
+	send "&9Kill Levels ➡ &7You are now level &99!"
+	execute console command "/playsound noteblock.pling %player%"
+	broadcast "&9Kill Levels ➡ &7%player% is now level &99! (200 KILLS!)"
+	
+if {kills:level:%Player%} is 250:
+	set the player's prefix to "&c10 "
+	send "&9Kill Levels ➡ &7You are now level &910"
+	execute console command "/playsound noteblock.pling %player%"
+	
+if {kills:level:%player%} is 300:
+	set the player's prefix to "&c11 "
+	send "&9Kill Levels ➡ &7You are now level &911"
+	execute console command "/playsound noteblock.pling %player%"
+	
+if {kills:level:%player%} is 350:
+	set the player's prefix to "&c12 "
+	send "&9Kill Levels ➡ &7You are now level &912!"
+	execute console command "/playsound noteblock.pling %player%"
+	
+	
+command /levels [<text>]:
+permission: levels.view
+permission message: &9Kill Levels ➡ &7You do not have permission!
+trigger:
+		if arg 1 is "view":
+				send "&9Kill Levels ➡ Levels" to player
+				send "&71 &e➡ One kill" to player
+				send "&72 &e➡ Ten kills" to player
+				send "&73 &e➡ Twenty kills" to player
+				send "&a4 &e➡ &eThirty-Five kills" to player
+				send "&a5 &e➡ &EFifty kills" to player
+				send "&a6 &e➡ &eSeventy-Five kills" to player
+				send "&a7 &e➡ &eOne Hundred kills" to player
+				send "&c8 &e➡ &eOne Hundred Fifty kills" to player
+				send "&c9 &e➡ &eTwo Hundred kills" to player
+				send "&c10 &e➡ &eTwo Hundred Fifty kills" to player
+				send "&c11 &e➡ &eThree Hundred Kills" to player
+				send "&c12 &E➡ Three Hundred Fifty kills" to player
+				send "&cPVP MASTER &e➡ &eAnywhere between 351 kills or 1,000,000. This ranks requirements change often."
+				send "&7&oLevels will be constantly added! Keep an eye on the Spigot page!" to player
+				send "&7&oRunning Kill Levels version 1.0 by Gent1emen"
+		if arg 1 is "info":
+				send "&9Kill Levels ➡ Information"
+				send "&7Kill Levels is a plugin that brings in levels per kill. Each kill the player gets is"
+				send "&7registered into a database that houses all players and their levels. When they reach a certain set number in the code,"
+				send "&7they get leveled up to the next level."
+			
+# DO NOT EDIT DOWN HERE EITHER!
+
+on script load:
+		if player has permission "op":
+			send "&9Running Kill Levels"
+		
+on first join:
+		set {kills:level:%Player%} to 0
+		
+if {kills:level:%player%} is less than 1:
+		set player's prefix to "&70 "
+		send "&9Kill Levels ➡ &7Begin killing players to level up!" 
+		
+if {kills:level:%player%} is greater than or equal to 351:
+		set player's prefix to "&cPVP-MASTER "
