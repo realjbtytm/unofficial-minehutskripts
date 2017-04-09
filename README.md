@@ -7,6 +7,8 @@ Please do not copy off of this project. Please do not use these skripts outside 
 ## Who can make skripts for this project?
 Anyone could. All it takes is to know skript, be original, and let it be for free.
 
+EXCEPTION: To be original, if you want to base it off of an existing Skript, please recode it and give credit to the original author.
+
 ## What if there is something that was not said in this readme that I need to know?
 Just ask me or the Maintainers of this project and they will add it for you! :)
 
