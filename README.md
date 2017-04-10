@@ -12,6 +12,9 @@ EXCEPTION: To be original, if you want to base it off of an existing Skript, ple
 ## Troubleshooting
 To fix the indentation issue, just copy and paste it into a IDE/UDL, or upload it to Pastebin. Or, you could just use the Raw version of it. I recommend Notepad++, Atom.io, and Visual Studio Code  
 
+## Where can I talk about this project?
+Well, you could speak about it on our announcement forums thread at https://minehut.com/forums/topics/58e98a0f23ad8c7f59d04a6a, or you could speak about it on our Discord server! https://discord.gg/tREksdA
+
 ## What if there is something that was not said in this readme that I need to know?
 Just ask me or the Maintainers of this project and they will add it for you! :)
 
