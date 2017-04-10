@@ -1,5 +1,5 @@
 # The Unofficial Minehut Skripts Project
-A collection of Skripts for the Minehut community. Started by RainDropInMCYT.
+A collection of Skripts for the Minehut community. Started by RainDropInMCYT. The Rules and Regulations are as of 4-10-17 at 4:05 PM US EST
 
 ## Rules and regulations of this project
 Please do not copy off of this project. Please do not use these skripts outside of Minehut. If you do, please ask permission from the skript authors. If you are to make skripts for this project, please let it be for free and be original. If you use this skript inside of Minehut, please credit them. No permission is necessary if you credit the author. If you do not, you must get permission from the author. You also must get permission if you use the Skript inside of this repository by the author. This is a project for free skripts for the Minehut community to get in one place. The Skripts in this repository must follow with the license set. Thank you for your time.
